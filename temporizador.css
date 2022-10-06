@@ -1,0 +1,99 @@
+.container{
+    height: 350px;
+    width: 850px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.102);
+    
+}
+
+body{
+    background: url(https://images.alphacoders.com/650/650300.jpg) no-repeat center center fixed;
+}
+#btnIniciar{
+    background-color: rgb(124, 117, 49);
+    height: 2.5rem;
+    width: 6rem;
+    border: 0 solid;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+}
+#btnIniciar:hover{
+    background-color: rgb(124, 117, 49);
+    background-color: white;
+    transition: 0.8s;
+    font-weight: 800;
+    color: black;
+}
+#btnPausar{
+    background-color: rgb(124, 117, 49);
+    height: 2.5rem;
+    width: 6rem;
+    border: 0 solid;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+}
+#btnPausar:hover{
+    background-color: rgb(124, 117, 49);
+    background-color: white;
+    transition: 0.8s;
+    font-weight: 800;
+    color: black;
+}
+#btnDetener{
+    background-color: rgb(124, 117, 49);
+    height: 2.5rem;
+    width: 6rem;
+    border: 0 solid;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+}
+#btnDetener:hover{
+    border: 1px solid rgb(106, 100, 44);
+    background-color: white;
+    transition: 0.8s;
+    font-weight: 800;
+    color: black;
+}
+#contenedorInputs{
+    height: 20rem;
+    width: 25rem;
+    position: absolute;
+    display: block;
+}
+#tiempoRestante{
+    font-size: 5rem;
+}
+.wrapper{
+  height: 20rem;
+  width: 25rem;
+  float: right;
+}
+.label{
+    margin: 8rem;
+    font-size: 25px;
+}
+input{
+    background-color: rgba(124, 126, 128, 0.521);
+    height: 2rem;
+    width: 13rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: rgba(97, 95, 95, 0.997) 4px 4px 4px;
+}
+input:hover{
+    background-color: rgba(188, 193, 198, 0.521);
+    transition: 0.8s;
+    color: white;
+    font-weight: 700;
+    border: 0 solid;
+}
