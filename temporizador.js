@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		$contenedorInputs = document.querySelector("#contenedorInputs");
 	let idInterval = null, diferenciaTemporal = 0,
 		fechaFuturo = null;
-	// Carga un sonido a través de su fuente y lo inyecta de manera oculta
-	// Tomado de: https://parzibyte.me/blog/2020/09/28/reproducir-sonidos-javascript/
+	
 	const cargarSonido = function (fuente) {
 		const sonido = document.createElement("audio");
 		sonido.src = fuente;
